@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 class aboutSection extends React.Component {
  render() {
   return (
-   <div>Body</div>
+   <div>Boasddy</div>
   )
  }
 }
