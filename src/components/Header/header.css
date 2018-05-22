@@ -115,7 +115,7 @@ nav {
  }
 
  .nav-links {
-  display: block;
+  display: none;
   text-align: center;
   width: 100%
  }
