@@ -18,7 +18,7 @@
  /* background-color: brown; */
  width: 45%;
  position: absolute;
- bottom: 30%;
+ bottom: 20%;
  right: 10%;
  margin: auto;
 }
@@ -31,6 +31,8 @@
  font-family: 'Raleway', sans-serif;
 }
 
+
+/* WELCOME MESSAGE REACT   */
 .react-container {
  display: grid;
  grid-template-columns: 1fr 1fr;
