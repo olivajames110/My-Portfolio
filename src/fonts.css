@@ -1,0 +1,17 @@
+h1 {
+ font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+ font-family: 'Raleway', sans-serif;
+}
+
+p {
+ font-family: 'Open Sans', sans-serif;
+}
+
+.react-word {
+ text-align: right;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 800;
+}

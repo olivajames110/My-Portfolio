@@ -1,0 +1,62 @@
+@media (max-width: 1110px) {
+ .toggle {
+  display: flex;
+ }
+
+ .desktop-logo {
+  display: none;
+ }
+
+ .mobile-logo {
+  display: block;
+  padding: 8px;
+ }
+
+ #navigation-tabs {
+  display: none;
+ }
+
+ .mobile-toggle {
+  display: block;
+ }
+
+ .welcome-message-box {
+  width: 70%;
+ }
+ 
+}
+
+
+/* 
+.welcome-message-box {
+ padding-right: 0 !important;
+ padding-top: 52% !important;
+}
+
+.welcome-message-line {
+ padding: .4em 0 !important;
+}
+
+.nav-links {
+ display: none;
+ text-align: center;
+ width: 100%
+}
+
+
+.nav-links li {
+ padding: 8px;
+}
+
+.nav-links li:hover {
+ background-color: rgba(14, 59, 67, 0.692);
+}
+
+.desktop-header {
+ background-color: #0E3B43; 
+ padding: 0 !important;
+}
+
+.navigation {
+ width: 100%;
+} */

@@ -1,0 +1,58 @@
+#top-content {
+}
+
+.welcome-message-container {
+ left: 0;
+ right: 0;
+ bottom: 0;
+ position: absolute;
+ top: 0;
+ width: 100%;
+ margin: auto;
+ height: auto;
+ 
+ 
+}
+
+.welcome-message-box {
+ /* background-color: brown; */
+ width: 45%;
+ position: absolute;
+ bottom: 30%;
+ right: 10%;
+ margin: auto;
+}
+
+.welcome-message-line {
+ color: #fffffd;
+ text-align: center;
+ padding: .4em 0;
+ font-size: 48px;
+ font-family: 'Raleway', sans-serif;
+}
+
+.react-container {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+.react-word {
+ text-align: right;
+}
+
+.react-icon {
+ position: relative;
+}
+
+.react-icon svg {
+ position: absolute;
+ top: 0;
+ left: 10%;
+ width: 100px;
+ animation: App-logo-spin infinite 5s linear;
+}
+
+@keyframes App-logo-spin {
+ from { transform: rotate(0deg); }
+ to { transform: rotate(360deg); }
+}
