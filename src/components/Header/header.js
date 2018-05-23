@@ -7,26 +7,36 @@ class Header extends React.Component {
     super(props);
 
     this.state = {
-      isMenuOpen: false
+      isMenuClosed: true
     };
   }
 
-  handleMenuToggleOnClick = (e) => {
-    this.setState({ isMenuOpen: !this.state.isMenuOpen });
+  handleMenuToggleOnClick = () => {
+    this.setState({ isMenuClosed: !this.state.isMenuClosed });
   }
-  
- render() {
-  const isMenuOpen = this.state.isMenuOpen ? 'initial' : 'none';
 
+  
+  mobileClick = () => { 
+      let links = document.getElementsByClass("nav-links");
+      links.style.display = "block"
+
+  }
+
+ render() {
+    const isMenuClosed = this.state.isMenuClosed ? 'initial' : 'none';
+    
+
+  
   return (
     <nav className="">
       <div className="toggle">
         <div className="mobile-logo">Jimmy Oliva</div>
         <div className="mobile-nav">
-          <i
+          <i  
             className="fas fa-bars"
             aria-hidden="true"
-            onClick={this.handleMenuToggleOnClick}
+            onClick={this.mobileClick}
+            // onClick={this.handleMenuToggleOnClick}
           />
         </div>
       </div>
@@ -36,19 +46,20 @@ class Header extends React.Component {
         <div className="navigation">
           <ul
             className="nav-links"
-            style={{ display: isMenuOpen }}
+            // style={{ display: isMenuClosed }}
           >
-          <li><a href="#"><span>Home</span></a></li>
-          <li><a href="#"><span>About</span></a></li>
-          <li><a href="#"><span>Portfolio & Projects</span></a></li>
-          <li><a href="#"><span>Contact</span></a></li>
+            <li><a href="#"><span>Home</span></a></li>
+            <li><a href="#"><span>About</span></a></li>
+            <li><a href="#"><span>Portfolio & Projects</span></a></li>
+            <li><a href="#"><span>Contact</span></a></li>
           </ul>
         </div>
         </div>
       </div>
     </nav>
   );
-}
-}
+};
+};
+
 
 export default Header;

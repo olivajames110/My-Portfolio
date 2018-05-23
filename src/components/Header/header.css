@@ -72,7 +72,6 @@ nav {
 
 .toggle {
  display: none;
- position: flex;
  justify-content: space-between;
  width: 100%;
  background-color: #1f6e78;
@@ -81,15 +80,21 @@ nav {
 
 }
 
+.mobile-nav-links {
+ background-color: #0E3B43; 
+ padding: 0 !important;
+}
+
 .mobile-logo {
  font-family: 'Raleway', sans-serif;
- font-size: 20px;
+ font-size: 16px;
  color: white;
  text-transform: uppercase;
  letter-spacing: 8px;
  word-spacing: 1px;
  font-weight: bolder;
  text-align: left;
+ margin-top: 8px;
 }
 
 
@@ -112,6 +117,11 @@ nav {
 
  .welcome-message-box {
   padding-right: 0 !important;
+  padding-top: 52% !important;
+ }
+
+ .welcome-message-line {
+  padding: .4em 0 !important;
  }
 
  .nav-links {
@@ -119,9 +129,17 @@ nav {
   text-align: center;
   width: 100%
  }
+ 
+ /* #mobile-nav-links {
+  display: flex;
+ } */
 
  .nav-links li {
-  padding: 15px;
+  padding: 8px;
+ }
+
+ .nav-links li:hover {
+  background-color: rgba(14, 59, 67, 0.692);
  }
  
  .desktop-header {
