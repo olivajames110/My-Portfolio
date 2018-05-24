@@ -14,7 +14,7 @@ class App extends React.Component {
       <div className="App">
         <Header2 />
         <Body2 />
-      
+        <AboutSection />
       </div>
     );
   }

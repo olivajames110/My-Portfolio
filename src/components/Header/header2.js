@@ -3,10 +3,22 @@ import ReactDOM from 'react-dom';
 import './header2.css'
 
 class Header2 extends React.Component {
+ 
+ state = {
+  isTop: true,
+};
 
+componentDidMount() {
+  document.addEventListener('scroll', () => {
+    const isTop = window.scrollY < 100;
+    if (isTop !== this.state.isTop) {
+        this.setState({ isTop })
+    }
+  });
+}
  render() {
   return (
-    <nav className="nav">
+    <nav className="nav" style={{backgroundColor: this.state.isTop ? "rgba(255, 255, 255, 0)" : "#2b7b8785"}}>
      <div className="mobile-container">
       <div className="mobile-logo">Jimmy Oliva</div>
       <div className="mobile-toggle">

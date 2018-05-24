@@ -5,6 +5,7 @@ nav {
  background-color: rgba(128, 128, 128, 0); 
  width: 100%;
  padding: 10px;
+ transition-duration: .6s;
 }
 
 .desktop-logo {

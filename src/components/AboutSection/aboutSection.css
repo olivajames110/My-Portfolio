@@ -1,3 +1,17 @@
-.about-container {
- background-color: aqua;
+.about-section {
+ text-align: center;
+ padding: 70px 0;
+}
+
+.about-abilities {
+ padding-top: 40px;
+}
+
+.about-text-title {
+ text-align: left;
+ padding-bottom: 15px;
+}
+
+.about-text {
+ text-align: justify;
 }
