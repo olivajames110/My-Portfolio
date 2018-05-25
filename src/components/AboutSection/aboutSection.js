@@ -8,7 +8,7 @@ class aboutSection extends React.Component {
    <div className="about-section container">
     <div className="about-abilities row">
      <div className="col-md-4">
-      <div className="about-image"></div>
+      <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/32336918_10216545070438843_2799077921069727744_o.jpg?_nc_cat=0&oh=d0552f9f9ed4f1d0d89a12384d6f5b62&oe=5B8045BF" alt="jimmy" width="100%"/>
      </div>
      <div className="col-md-1"></div>
      <div className="col-md-7">
