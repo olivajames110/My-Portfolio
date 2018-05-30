@@ -29,7 +29,6 @@ class Header extends React.Component {
   
   return (
     <nav className="">
-      <div className="toggle">
         <div className="mobile-logo">Jimmy Oliva</div>
         <div className="mobile-nav">
           <i  
@@ -39,7 +38,6 @@ class Header extends React.Component {
             // onClick={this.handleMenuToggleOnClick}
           />
         </div>
-      </div>
       <div className="desktop-header fluid-container">
         <div className="row">
         <div className="logo">Jimmy Oliva</div>

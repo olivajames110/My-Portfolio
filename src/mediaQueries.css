@@ -12,7 +12,7 @@
   padding: 8px;
  }
 
- #navigation-tabs {
+ #navigation-tabs-desktop {
   display: none;
  }
 
@@ -23,7 +23,16 @@
  .welcome-message-box {
   width: 70%;
  }
- 
+
+ .about-button {
+  width: 100%;
+  margin: 15px 0 0 0;
+ }
+
+ .navigation-container {
+  width: 100%;
+ }
+
 }
 
 

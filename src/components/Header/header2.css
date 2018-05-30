@@ -4,7 +4,6 @@ nav {
  justify-content: space-between;
  background-color: rgba(128, 128, 128, 0); 
  width: 100%;
- padding: 10px;
  transition-duration: .6s;
  z-index: 1;
 }
@@ -24,6 +23,7 @@ nav {
  display: flex;
  justify-content: space-between;
  width: 100%;
+ padding: 15px;
 }
 
 .mobile-logo {
@@ -51,13 +51,39 @@ nav {
  align-items: center;
 }
 
-#navigation-tabs {
+#navigation-tabs-mobile {
+ display: flex;
+ flex-direction: column;
+ list-style-type: none;
+ width: 100%;
+ background-color: #3b97a3e9;
+ text-align: center;
+ padding: 30px;
+ transition-duration: .8s;
+}
+
+#navigation-tabs-mobile li {
+ display: flex;
+ flex-direction: column;
+ list-style-type: none;
+ width: 100%;
+ text-align: center;
+ font-size: 1.4em;
+ padding: 30px 0;
+ font-family: 'Montserrat', sans-serif;
+}
+
+#navigation-tabs-mobile a {
+ color: #ffffff !important;
+}
+
+#navigation-tabs-desktop {
  display: flex;
  list-style-type: none;
  padding-top: 15px;
 }
 
-#navigation-tabs a{
+#navigation-tabs-desktop a{
  font-family: 'Montserrat', sans-serif;
  padding: 0 20px;
  color: white;
@@ -69,3 +95,25 @@ nav {
  color: rgba(255, 255, 255, 0.575);
 }
 
+
+#mobile-navigation-tabs {
+ display: block;
+ list-style-type: none;
+ text-align: center;background-color: brown;
+ width: 100%;
+}
+
+#mobile-navigation-tabs a{
+ color: white;
+
+}
+
+#mobile-navigation-tabs li{
+ font-family: 'Montserrat', sans-serif;
+ padding: 20px 10px;
+ color: white;
+ font-size: 20px;
+ text-decoration: none;
+ text-transform: uppercase;
+
+}
