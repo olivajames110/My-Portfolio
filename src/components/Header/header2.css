@@ -32,10 +32,11 @@ nav {
  font-size: 16px;
  color: white;
  text-transform: uppercase;
- letter-spacing: 8px;
+ letter-spacing: 6px;
  word-spacing: 1px;
  font-weight: bolder;
  text-align: left;
+ padding: 8px 0;
 }
 
 .mobile-toggle {
@@ -44,7 +45,6 @@ nav {
  font-size: 24px;
  cursor: pointer;
 }
-
 
 .navigation-container {
  display: flex;
@@ -56,10 +56,12 @@ nav {
  flex-direction: column;
  list-style-type: none;
  width: 100%;
- background-color: #3b97a3;
+ height: 100vh;
+ background-color: whitesmoke;
  text-align: center;
- padding: 30px 0;
- transition-duration: .8s;
+ padding: 15px 0;
+ animation-duration: .8s;
+ animation-name: slideIn;
 }
 
 #navigation-tabs-mobile li {
@@ -67,19 +69,23 @@ nav {
  flex-direction: column;
  list-style-type: none;
  width: 100%;
- text-align: center;
+ text-align: left;
  font-size: 1.4em;
- padding: 30px 0;
+ padding: 30px 20px;
  font-family: 'Montserrat', sans-serif;
 }
 
 #navigation-tabs-mobile li:hover {
- background-color: #44aab8;
+ background-color: #3b97a320;
  cursor: pointer;
 }
 
 #navigation-tabs-mobile a {
- color: #ffffff !important;
+ color: #3b97a3 !important;
+ text-decoration: none;
+}
+
+#navigation-tabs-mobile a:hover {
  text-decoration: none;
 }
 
@@ -97,29 +103,34 @@ nav {
  text-transform: uppercase;
 }
 
-#navigation-tabs a:hover {
- color: rgba(255, 255, 255, 0.575);
+#navigation-tabs-mobile li:nth-child(1) {
+ animation-duration: .8s;
+ animation-name: slideIn;
 }
 
-
-#mobile-navigation-tabs {
- display: block;
- list-style-type: none;
- text-align: center;background-color: brown;
- width: 100%;
+#navigation-tabs-mobile li:nth-child(2) {
+ animation-duration: 1.2s;
+ animation-name: slideIn;
 }
 
-#mobile-navigation-tabs a{
- color: white;
-
+#navigation-tabs-mobile li:nth-child(3) {
+ animation-duration: 1.6s;
+ animation-name: slideIn;
 }
 
-#mobile-navigation-tabs li{
- font-family: 'Montserrat', sans-serif;
- padding: 20px 10px;
- color: white;
- font-size: 20px;
- text-decoration: none;
- text-transform: uppercase;
-
+#navigation-tabs-mobile li:nth-child(4) {
+ animation-duration: 1.8s;
+ animation-name: slideIn;
 }
+
+@keyframes slideIn {
+ from {
+  transform: translate3d(-100%, 0, 0);
+  visibility: visible;
+}
+
+to {
+  transform: translate3d(0, 0, 0);
+}
+}
+
