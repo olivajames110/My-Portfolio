@@ -1,6 +1,8 @@
 .about-section {
  text-align: center;
- padding: 30px;
+ padding: 115px 30px;
+ /* background: linear-gradient(to right, rgb(240, 240, 240), rgb(255, 255, 255));  */
+ background-color: white;
 }
 
 .about-abilities {
@@ -12,9 +14,14 @@
  padding: 30px 0 15px 0;
 }
 
+.section-title {
+ color: #333;
+}
+
 .about-text {
  text-align: justify;
- color: #333
+ color: rgba(51, 51, 51, 0.849);
+ font-size: 1em;
 }
 
 .about-sm-resume-container {
@@ -25,7 +32,6 @@
 
 .about-button {
  padding: 16px 20px;
- background-color: rgb(44, 125, 134);
  margin: 15px 30px 0 0;
  color: white;
  font-size: 14px;
@@ -33,6 +39,15 @@
  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.25);
  position: relative;
  transition-duration: .3s;
+}
+
+.about-button:nth-child(1) {
+ background: linear-gradient(to right,#3b97a3 , #0083B0); 
+ 
+}
+
+.about-button:nth-child(2) {
+ background: linear-gradient(to right, #0083B0, #3b97a3); 
 }
 
 .about-button:hover {

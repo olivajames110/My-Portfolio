@@ -1,0 +1,51 @@
+.project {
+ background-color: rgb(240, 240, 240);
+ position: relative;
+ width: 90%;
+ height: 480px;
+ box-shadow: 0 30px 80px 0 rgba(0,0,0,.4);
+ margin: 70px auto;
+}
+
+.project-image {
+ background: url("https://digitalmarketing.blob.core.windows.net/9553/images/items/image494666.png") no-repeat;
+ background-position: top;
+ background-size: cover;
+}
+
+.overlay {
+ background: linear-gradient(to right, rgba(5, 6, 17, 0.693), rgba(36, 34, 34, 0.768)); 
+ height: 100%;
+ width: 100%;
+}
+
+.box {
+ position: absolute;
+ left: 5%;
+ bottom: 15%;
+ color: white;
+}
+
+.project-title-name {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: bold;
+ font-size: 40px;
+}
+
+.project-title-company {
+ font-family: 'Raleway', sans-serif;
+}
+
+.project button {
+ background: linear-gradient(to right, #0083B0, #3b97a3);
+ color: white;
+ padding: 15px 25px;
+ border: none;
+ margin-top: 15px;
+ transition-duration: .3s;
+ cursor: pointer;
+}
+
+.project button:hover {
+ background: linear-gradient(to left, #0083B0, #3b97a3);
+}
