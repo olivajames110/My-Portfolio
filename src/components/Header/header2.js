@@ -33,7 +33,7 @@ mobileClick = () => {
 
  render() {
   return (
-    <nav className="nav" style={{backgroundColor: this.state.isTop ? "rgba(255, 255, 255, 0)" : "#2b7b8785"}}>
+    <nav className="nav" style={{backgroundColor: this.state.isTop ? "rgba(255, 255, 255, 0)" : "#3b97a3f5"}}>
      <div className="mobile-container">
       <div className="mobile-logo">Jimmy Oliva
       </div>
