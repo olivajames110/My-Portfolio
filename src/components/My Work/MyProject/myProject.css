@@ -1,7 +1,8 @@
+
 .project {
  background-color: rgb(240, 240, 240);
  position: relative;
- width: 90%;
+ width: 100%;
  height: 480px;
  box-shadow: 0 30px 80px 0 rgba(0,0,0,.4);
  margin: 70px auto;

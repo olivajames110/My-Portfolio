@@ -1,0 +1,72 @@
+import
+
+$mainGreen: #2c7d86;
+
+
+.about-section {
+ text-align: center;
+ padding-top: 115px;
+ /* background: linear-gradient(to right, rgb(240, 240, 240), rgb(255, 255, 255));  */
+ background-color: white;
+}
+
+.about-abilities {
+ padding-top: 40px;
+}
+
+.about-text-title {
+ text-align: left;
+ padding: 30px 0 15px 0;
+}
+
+.section-title {
+ color: #333;
+}
+
+.about-text {
+ text-align: justify;
+ color: rgba(51, 51, 51, 0.849);
+ font-size: 1em;
+}
+
+.about-sm-resume-container {
+ display: flex;
+ margin-top: 30px;
+ flex-wrap: wrap;
+}
+
+.about-button {
+ padding: 16px 20px;
+ margin: 15px 30px 0 0;
+ color: white;
+ font-size: 14px;
+ border: none;
+ box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.25);
+ position: relative;
+ transition-duration: .3s;
+ background-color: $test;
+ /* background-color: #2c7d86; */
+}
+
+/* .about-button:nth-child(1) {
+ background: linear-gradient(to right,#3b97a3 , #0083B0); 
+ 
+}
+
+.about-button:nth-child(2) {
+ background: linear-gradient(to right, #0083B0, #3b97a3); 
+} */
+
+.about-button:hover {
+ background-color: rgba(44, 125, 134, 0.90); 
+ cursor: pointer;
+ transform: translate(0px, -5px) scale(1.1)
+}
+
+
+
+
+.fa-envelope-open:before , .fa-linkedin-in:before {
+ margin-right: 8px;
+}
+

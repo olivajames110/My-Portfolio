@@ -1,0 +1,51 @@
+.skills-exp-section {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ position: relative;
+ width: 100%;
+}
+
+.skills , .programming{
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ padding: 120px 0 100px 0;
+}
+
+.skills {
+ background-color: #dddddd;
+}
+
+.programming {
+ background-color: #EBEBEB;
+}
+
+
+
+
+.skills-row , .programming-row{
+ width: 100%;
+ padding-top: 25px;
+ display: grid;
+
+}
+
+.skills-row {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+
+.programming-row {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.skill-icon {
+ color: #3b97a3;
+ font-size: 48px;
+}
+
+.skill-title {
+ padding-bottom: 15px;
+}
+

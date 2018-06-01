@@ -36,39 +36,28 @@
  .my-work-section {
   padding: 80px 0;
  }
+
+ .skills-row , .programming-row{
+  grid-template-columns: 1fr 1fr;
+  padding-top: 5px;
+ }
 }
 
+
+@media (max-width: 600px){
+ .skills-row , .programming-row{
+  grid-template-columns: 1fr;
+  padding-top: 5px;
+ }
+
+ .skills-exp-section {
+  grid-template-columns: 1fr;
+ }
+ 
+}
 
 /* 
-.welcome-message-box {
- padding-right: 0 !important;
- padding-top: 52% !important;
-}
-
-.welcome-message-line {
- padding: .4em 0 !important;
-}
-
-.nav-links {
- display: none;
- text-align: center;
- width: 100%
-}
-
-
-.nav-links li {
- padding: 8px;
-}
-
-.nav-links li:hover {
- background-color: rgba(14, 59, 67, 0.692);
-}
-
-.desktop-header {
- background-color: #0E3B43; 
- padding: 0 !important;
-}
-
-.navigation {
- width: 100%;
+---------------SKILLS & PROGRAMMING---------------
 } */
+
+
