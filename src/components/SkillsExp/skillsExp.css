@@ -20,32 +20,20 @@
  background-color: #EBEBEB;
 }
 
-
-
-
 .skills-row , .programming-row{
  width: 100%;
- padding-top: 25px;
- display: grid;
-
-}
-
-.skills-row {
- display: grid;
- grid-template-columns: 1fr 1fr 1fr;
-}
-
-.programming-row {
+ padding: 20px 60px;
  display: grid;
  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .skill-icon {
- color: #3b97a3;
- font-size: 48px;
+ max-height: 500px ;
+ margin-top: 30px;
 }
 
 .skill-title {
- padding-bottom: 15px;
+ padding: 15px 0;
+ font-size: 
 }
 

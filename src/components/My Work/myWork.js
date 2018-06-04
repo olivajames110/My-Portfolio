@@ -12,9 +12,9 @@ class MyWork extends React.Component {
      <div className="my-work-title  section-title">
       <h1>Some of my <span style={ { color:"#3b97a3" } }>Work</span></h1>
      </div>
-     <MyProject projectName="Social Hub Redesign" projectCompany="Built For Ordereze" projectLink=""/>
-     <MyProject projectName="Social Hub Redesign1" projectCompany="Built For Ordereze1" projectLink=""/>
-     <MyProject projectName="Social Hub Redesign3" projectCompany="Built For Ordereze3" projectLink=""/>
+     <MyProject projectName="Free Trial Redesign" projectCompany="Ordereze - UX/UI" projectImageUrl="https://digitalmarketing.blob.core.windows.net/10412/images/items/image495518.png" projectLink=""/>
+     <MyProject projectName="Noah Grants Seafood" projectCompany="Web Design" projectImageUrl="https://digitalmarketing.blob.core.windows.net/10412/images/items/image495521.png"/>
+     <MyProject projectName="Social Hub Redesign" projectCompany="Ordereze - UX/UI" projectImageUrl="https://digitalmarketing.blob.core.windows.net/9553/images/items/image494666.png" />
     </div>
    </div>
   )

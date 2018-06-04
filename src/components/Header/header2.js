@@ -50,7 +50,7 @@ mobileClick = () => {
      <div className="navigation-container">
       <ul id={this.state.isMobile? "navigation-tabs-mobile" : "navigation-tabs-desktop"}  >
        <li><a href="#"><span>Home</span></a></li>
-       <li><a href="#"><span>About</span></a></li>
+       <li><a href="#"><span>Bio</span></a></li>
        <li><a href="#"><span>Portfolio & Projects</span></a></li>
        <li><a href="#"><span>Contact</span></a></li>
       </ul>

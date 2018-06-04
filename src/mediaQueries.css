@@ -16,6 +16,10 @@
   display: none;
  }
 
+ #navigation-tabs-mobile {
+  background-color: white !important;
+ }
+
  .mobile-toggle {
   display: block;
  }
@@ -41,6 +45,23 @@
   grid-template-columns: 1fr 1fr;
   padding-top: 5px;
  }
+
+ .skills , programming {
+  padding: 120px 0 50px 0;
+ }
+
+.nav {
+ animation-name: fade;
+
+
+
+}
+
+@keyframes fade { 
+ from { opactity: 0; }
+ to { opacity: 1;}
+}
+
 }
 
 

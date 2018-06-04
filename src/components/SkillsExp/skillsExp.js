@@ -14,25 +14,25 @@ class SkillsExp extends React.Component {
    <div className="programming-row">
     <div className="skills-col">
      <div className="skill-icon">
-      <i class="fas fa-tv"></i>
+      <img src="https://digitalmarketing.blob.core.windows.net/10412/images/items/image495169.png" width="80%" />
      </div>
      <h3 className="skill-title">HTML 5</h3>
     </div>
     <div className="skills-col">
      <div className="skill-icon">
-      <i class="fas fa-tv"></i>
+      <img src="https://digitalmarketing.blob.core.windows.net/10412/images/items/image495170.png" width="80%" />
      </div>
      <h3 className="skill-title">CSS</h3>
     </div>
     <div className="skills-col">
      <div className="skill-icon">
-      <i class="fas fa-tv"></i>
+      <img src="https://digitalmarketing.blob.core.windows.net/10412/images/items/image495172.png" width="80%" />
      </div>
      <h3 className="skill-title">Javascript</h3>
     </div>
     <div className="skills-col">
      <div className="skill-icon">
-      <i class="fas fa-tv"></i>
+     <img src="https://digitalmarketing.blob.core.windows.net/10412/images/items/image495173.png" width="80%" />
       </div>
      <h3 className="skill-title">React</h3>
     </div>
@@ -46,22 +46,28 @@ class SkillsExp extends React.Component {
      <div className="skills-row">
      <div className="skills-col">
       <div className="skill-icon">
-       <i class="fas fa-tv"></i>
+       <img src="https://digitalmarketing.blob.core.windows.net/10412/images/items/image495389.png" width="80%" />
        </div>
       <h3 className="skill-title">Web Design</h3>
      </div>
      <div className="skills-col">
       <div className="skill-icon">
-       <i class="fas fa-tv"></i>
+       <img src="https://digitalmarketing.blob.core.windows.net/10412/images/items/image495390.png" width="80%" />
        </div>
       <h3 className="skill-title">Photoshop</h3>
      </div>
      <div className="skills-col">
       <div className="skill-icon">
-       <i class="fas fa-tv"></i>
+       <img src="https://digitalmarketing.blob.core.windows.net/10412/images/items/image495168.png" width="80%" />
        </div>
       <h3 className="skill-title">UX/UI</h3>
      </div>
+     <div className="skills-col">
+      <div className="skill-icon">
+       <img src="https://digitalmarketing.blob.core.windows.net/10412/images/items/image495475.png" width="80%" />
+      </div>
+     <h3 className="skill-title">Mockplus</h3>
+    </div>
     </div>
     </div>
    </div>
