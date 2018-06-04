@@ -8,8 +8,8 @@ class SkillsExp extends React.Component {
    <div className="skills-exp-section">
    <div className="programming">
    <div className="skills-box">
-    <h1 className="section-title">- Programming Languages - </h1>
-    <h2 className="section-sub-title">Languages I like to use</h2>
+    <h1 className="section-title">- Programming & Frameworks - </h1>
+    <h2 className="section-sub-title">Languages I enjoy using</h2>
    </div>
    <div className="programming-row">
     <div className="skills-col">
@@ -41,7 +41,7 @@ class SkillsExp extends React.Component {
     <div className="skills">
      <div className="skills-box">
       <h1 className="section-title">- Skills & Proficiencys -</h1>
-      <h2 className="section-sub-title">What I'm pretty good at doing</h2>
+      <h2 className="section-sub-title">What I'm good at doing</h2>
      </div>
      <div className="skills-row">
      <div className="skills-col">
