@@ -1,13 +1,12 @@
 .my-work-section {
  padding: 80px 30px;
  background-color: #f3f3f3;
- text-align: center;
+ text-align: left;
  /* background: #00B4DB;  
  background: -webkit-linear-gradient(to right, #0083B0, #3b97a3); 
  background: linear-gradient(to right, #0083B0, #3b97a3);  */
 }
 
 .my-work-title {
- text-align: center;
  font-size: 24px;
 }

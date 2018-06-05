@@ -5,6 +5,7 @@ import Body2 from './components/Body/body2';
 import AboutSection from './components/AboutSection/aboutSection';
 import MyWork from './components/My Work/myWork'
 import SkillsExp from './components/SkillsExp/skillsExp'
+import Footer from './components/Footer/footer'
 import './App.css';
 import './mediaQueries.css';
 import './fonts.css'
@@ -19,6 +20,7 @@ class App extends React.Component {
         <AboutSection />
         <SkillsExp />
         <MyWork />
+        <Footer />
       </div>
     );
   }
